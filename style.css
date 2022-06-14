@@ -1,0 +1,25 @@
+* {
+  border: 1px solid red;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  max-width: 80vh;
+}
+.row {
+  display: flex;
+  flex: 1;
+  max-width: 80vh;
+}
+
+.cell {
+  flex: 1;
+}
+
+.hovered {
+  background-color: blue;
+}
