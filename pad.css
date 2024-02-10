@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+#game-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.square {
+  flex-shrink: 0;
+}
