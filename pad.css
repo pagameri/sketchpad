@@ -18,3 +18,7 @@ html {
 .square {
   flex-shrink: 0;
 }
+
+.colored {
+  background-color: blue;
+}
