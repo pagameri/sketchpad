@@ -11,12 +11,14 @@ html {
 #game-container {
   display: flex;
   flex-wrap: wrap;
-  width: 320px;
+  /* width: 640px;
+  height: 640px; */
   margin: 0 auto;
 }
 
 .square {
-  flex-shrink: 0;
+  flex: 1 1 auto;
+  border: 1px solid black;
 }
 
 .colored {
